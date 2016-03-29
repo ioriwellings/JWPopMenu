@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AADE537A1CAA571900E6C9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE53791CAA571900E6C9CF /* main.m */; };
+		AADE537D1CAA571900E6C9CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE537C1CAA571900E6C9CF /* AppDelegate.m */; };
+		AADE53801CAA571900E6C9CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE537F1CAA571900E6C9CF /* ViewController.m */; };
+		AADE53831CAA571900E6C9CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADE53811CAA571900E6C9CF /* Main.storyboard */; };
+		AADE53851CAA571900E6C9CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AADE53841CAA571900E6C9CF /* Assets.xcassets */; };
+		AADE53881CAA571900E6C9CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AADE53861CAA571900E6C9CF /* LaunchScreen.storyboard */; };
+		AADE53931CAA571900E6C9CF /* JWPopMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE53921CAA571900E6C9CF /* JWPopMenuDemoTests.m */; };
+		AADE539E1CAA571900E6C9CF /* JWPopMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE539D1CAA571900E6C9CF /* JWPopMenuDemoUITests.m */; };
+		AADE53B01CAA5A3100E6C9CF /* barbuttonicon_add.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE53AD1CAA5A3100E6C9CF /* barbuttonicon_add.png */; };
+		AADE53B11CAA5A3100E6C9CF /* barbuttonicon_add@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE53AE1CAA5A3100E6C9CF /* barbuttonicon_add@2x.png */; };
+		AADE53B21CAA5A3100E6C9CF /* barbuttonicon_add@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE53AF1CAA5A3100E6C9CF /* barbuttonicon_add@3x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AADE538F1CAA571900E6C9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADE536D1CAA571900E6C9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AADE53741CAA571900E6C9CF;
+			remoteInfo = JWPopMenuDemo;
+		};
+		AADE539A1CAA571900E6C9CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AADE536D1CAA571900E6C9CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AADE53741CAA571900E6C9CF;
+			remoteInfo = JWPopMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AADE53751CAA571900E6C9CF /* JWPopMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPopMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADE53791CAA571900E6C9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AADE537B1CAA571900E6C9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AADE537C1CAA571900E6C9CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AADE537E1CAA571900E6C9CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AADE537F1CAA571900E6C9CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AADE53821CAA571900E6C9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AADE53841CAA571900E6C9CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AADE53871CAA571900E6C9CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AADE53891CAA571900E6C9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADE538E1CAA571900E6C9CF /* JWPopMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWPopMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADE53921CAA571900E6C9CF /* JWPopMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWPopMenuDemoTests.m; sourceTree = "<group>"; };
+		AADE53941CAA571900E6C9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADE53991CAA571900E6C9CF /* JWPopMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWPopMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AADE539D1CAA571900E6C9CF /* JWPopMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWPopMenuDemoUITests.m; sourceTree = "<group>"; };
+		AADE539F1CAA571900E6C9CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AADE53AD1CAA5A3100E6C9CF /* barbuttonicon_add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barbuttonicon_add.png; sourceTree = "<group>"; };
+		AADE53AE1CAA5A3100E6C9CF /* barbuttonicon_add@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add@2x.png"; sourceTree = "<group>"; };
+		AADE53AF1CAA5A3100E6C9CF /* barbuttonicon_add@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "barbuttonicon_add@3x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AADE53721CAA571900E6C9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE538B1CAA571900E6C9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE53961CAA571900E6C9CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AADE536C1CAA571800E6C9CF = {
+			isa = PBXGroup;
+			children = (
+				AADE53771CAA571900E6C9CF /* JWPopMenuDemo */,
+				AADE53911CAA571900E6C9CF /* JWPopMenuDemoTests */,
+				AADE539C1CAA571900E6C9CF /* JWPopMenuDemoUITests */,
+				AADE53761CAA571900E6C9CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AADE53761CAA571900E6C9CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AADE53751CAA571900E6C9CF /* JWPopMenuDemo.app */,
+				AADE538E1CAA571900E6C9CF /* JWPopMenuDemoTests.xctest */,
+				AADE53991CAA571900E6C9CF /* JWPopMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AADE53771CAA571900E6C9CF /* JWPopMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				AADE53AB1CAA579100E6C9CF /* JWMenu */,
+				AADE537B1CAA571900E6C9CF /* AppDelegate.h */,
+				AADE537C1CAA571900E6C9CF /* AppDelegate.m */,
+				AADE537E1CAA571900E6C9CF /* ViewController.h */,
+				AADE537F1CAA571900E6C9CF /* ViewController.m */,
+				AADE53811CAA571900E6C9CF /* Main.storyboard */,
+				AADE53841CAA571900E6C9CF /* Assets.xcassets */,
+				AADE53861CAA571900E6C9CF /* LaunchScreen.storyboard */,
+				AADE53891CAA571900E6C9CF /* Info.plist */,
+				AADE53781CAA571900E6C9CF /* Supporting Files */,
+			);
+			path = JWPopMenuDemo;
+			sourceTree = "<group>";
+		};
+		AADE53781CAA571900E6C9CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AADE53791CAA571900E6C9CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AADE53911CAA571900E6C9CF /* JWPopMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AADE53921CAA571900E6C9CF /* JWPopMenuDemoTests.m */,
+				AADE53941CAA571900E6C9CF /* Info.plist */,
+			);
+			path = JWPopMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		AADE539C1CAA571900E6C9CF /* JWPopMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AADE539D1CAA571900E6C9CF /* JWPopMenuDemoUITests.m */,
+				AADE539F1CAA571900E6C9CF /* Info.plist */,
+			);
+			path = JWPopMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+		AADE53AB1CAA579100E6C9CF /* JWMenu */ = {
+			isa = PBXGroup;
+			children = (
+				AADE53B31CAA5DA100E6C9CF /* Menu */,
+				AADE53AC1CAA58E900E6C9CF /* image */,
+			);
+			name = JWMenu;
+			sourceTree = "<group>";
+		};
+		AADE53AC1CAA58E900E6C9CF /* image */ = {
+			isa = PBXGroup;
+			children = (
+				AADE53AD1CAA5A3100E6C9CF /* barbuttonicon_add.png */,
+				AADE53AE1CAA5A3100E6C9CF /* barbuttonicon_add@2x.png */,
+				AADE53AF1CAA5A3100E6C9CF /* barbuttonicon_add@3x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+		AADE53B31CAA5DA100E6C9CF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AADE53741CAA571900E6C9CF /* JWPopMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADE53A21CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemo" */;
+			buildPhases = (
+				AADE53711CAA571900E6C9CF /* Sources */,
+				AADE53721CAA571900E6C9CF /* Frameworks */,
+				AADE53731CAA571900E6C9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JWPopMenuDemo;
+			productName = JWPopMenuDemo;
+			productReference = AADE53751CAA571900E6C9CF /* JWPopMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AADE538D1CAA571900E6C9CF /* JWPopMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADE53A51CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemoTests" */;
+			buildPhases = (
+				AADE538A1CAA571900E6C9CF /* Sources */,
+				AADE538B1CAA571900E6C9CF /* Frameworks */,
+				AADE538C1CAA571900E6C9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADE53901CAA571900E6C9CF /* PBXTargetDependency */,
+			);
+			name = JWPopMenuDemoTests;
+			productName = JWPopMenuDemoTests;
+			productReference = AADE538E1CAA571900E6C9CF /* JWPopMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AADE53981CAA571900E6C9CF /* JWPopMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AADE53A81CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemoUITests" */;
+			buildPhases = (
+				AADE53951CAA571900E6C9CF /* Sources */,
+				AADE53961CAA571900E6C9CF /* Frameworks */,
+				AADE53971CAA571900E6C9CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AADE539B1CAA571900E6C9CF /* PBXTargetDependency */,
+			);
+			name = JWPopMenuDemoUITests;
+			productName = JWPopMenuDemoUITests;
+			productReference = AADE53991CAA571900E6C9CF /* JWPopMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AADE536D1CAA571900E6C9CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = evenCoder;
+				TargetAttributes = {
+					AADE53741CAA571900E6C9CF = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					AADE538D1CAA571900E6C9CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AADE53741CAA571900E6C9CF;
+					};
+					AADE53981CAA571900E6C9CF = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = AADE53741CAA571900E6C9CF;
+					};
+				};
+			};
+			buildConfigurationList = AADE53701CAA571900E6C9CF /* Build configuration list for PBXProject "JWPopMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AADE536C1CAA571800E6C9CF;
+			productRefGroup = AADE53761CAA571900E6C9CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AADE53741CAA571900E6C9CF /* JWPopMenuDemo */,
+				AADE538D1CAA571900E6C9CF /* JWPopMenuDemoTests */,
+				AADE53981CAA571900E6C9CF /* JWPopMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AADE53731CAA571900E6C9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADE53881CAA571900E6C9CF /* LaunchScreen.storyboard in Resources */,
+				AADE53851CAA571900E6C9CF /* Assets.xcassets in Resources */,
+				AADE53B21CAA5A3100E6C9CF /* barbuttonicon_add@3x.png in Resources */,
+				AADE53B01CAA5A3100E6C9CF /* barbuttonicon_add.png in Resources */,
+				AADE53831CAA571900E6C9CF /* Main.storyboard in Resources */,
+				AADE53B11CAA5A3100E6C9CF /* barbuttonicon_add@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE538C1CAA571900E6C9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE53971CAA571900E6C9CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AADE53711CAA571900E6C9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADE53801CAA571900E6C9CF /* ViewController.m in Sources */,
+				AADE537D1CAA571900E6C9CF /* AppDelegate.m in Sources */,
+				AADE537A1CAA571900E6C9CF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE538A1CAA571900E6C9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADE53931CAA571900E6C9CF /* JWPopMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AADE53951CAA571900E6C9CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADE539E1CAA571900E6C9CF /* JWPopMenuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AADE53901CAA571900E6C9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AADE53741CAA571900E6C9CF /* JWPopMenuDemo */;
+			targetProxy = AADE538F1CAA571900E6C9CF /* PBXContainerItemProxy */;
+		};
+		AADE539B1CAA571900E6C9CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AADE53741CAA571900E6C9CF /* JWPopMenuDemo */;
+			targetProxy = AADE539A1CAA571900E6C9CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AADE53811CAA571900E6C9CF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADE53821CAA571900E6C9CF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AADE53861CAA571900E6C9CF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AADE53871CAA571900E6C9CF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AADE53A01CAA571900E6C9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AADE53A11CAA571900E6C9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AADE53A31CAA571900E6C9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWPopMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gushengtang.JWPopMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AADE53A41CAA571900E6C9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JWPopMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gushengtang.JWPopMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AADE53A61CAA571900E6C9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWPopMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gushengtang.JWPopMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWPopMenuDemo.app/JWPopMenuDemo";
+			};
+			name = Debug;
+		};
+		AADE53A71CAA571900E6C9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JWPopMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gushengtang.JWPopMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JWPopMenuDemo.app/JWPopMenuDemo";
+			};
+			name = Release;
+		};
+		AADE53A91CAA571900E6C9CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWPopMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gushengtang.JWPopMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWPopMenuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		AADE53AA1CAA571900E6C9CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JWPopMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gushengtang.JWPopMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JWPopMenuDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AADE53701CAA571900E6C9CF /* Build configuration list for PBXProject "JWPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADE53A01CAA571900E6C9CF /* Debug */,
+				AADE53A11CAA571900E6C9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADE53A21CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADE53A31CAA571900E6C9CF /* Debug */,
+				AADE53A41CAA571900E6C9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADE53A51CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADE53A61CAA571900E6C9CF /* Debug */,
+				AADE53A71CAA571900E6C9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AADE53A81CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AADE53A91CAA571900E6C9CF /* Debug */,
+				AADE53AA1CAA571900E6C9CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AADE536D1CAA571900E6C9CF /* Project object */;
+}

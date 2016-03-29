@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="FIz-xP-1Tp">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="bEJ-dG-COB">
+            <objects>
+                <navigationController id="FIz-xP-1Tp" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="b6x-Yb-2Gc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="GgS-UI-Dnh" kind="relationship" relationship="rootViewController" id="0ks-OT-zav"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MT7-VM-ab4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1196" y="84"/>
+        </scene>
+        <!--仿QQ微信弹窗-->
+        <scene sceneID="eP1-xH-e4H">
+            <objects>
+                <viewController id="GgS-UI-Dnh" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eLW-Hx-Igq"/>
+                        <viewControllerLayoutGuide type="bottom" id="ele-za-dsg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="KgO-Cj-au6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="仿QQ微信弹窗" id="KGn-ef-Dvd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4wU-uC-a45" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-552" y="84"/>
+        </scene>
+    </scenes>
+</document>
