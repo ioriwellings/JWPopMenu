@@ -7,6 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "JWMenu.h"
+
+#define VIEW_WIDHT [UIScreen mainScreen].bounds.size.width
+#define VIEW_HEIGHT [UIScreen mainScreen].bounds.size.height
 
 @interface ViewController ()
 
@@ -22,7 +26,7 @@
     [super viewDidLoad];
     
     [self setupRightBarButton];
-    
+
     [self setupLeftBarButton];
 }
 
@@ -51,12 +55,74 @@
 
 - (void)rightBarButtonClick {
     
-    NSLog(@"rightBarButtonClick");
+    NSArray *menuItems = @[[JWMenuItem menuItem:@"扫一扫"
+                                          image:[[UIImage imageNamed:@"menu_QR"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                         target:self action:@selector(richScan:)],
+                           [JWMenuItem menuItem:@"加好友"
+                                         image:[[UIImage imageNamed:@"menu_addFri"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]
+                                         target:self action:@selector(addFriend:)],
+                           [JWMenuItem menuItem:@"创建讨论组"
+                                          image:[[UIImage imageNamed:@"menu_multichat"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]
+                                         target:self action:@selector(createGroup:)],
+                           [JWMenuItem menuItem:@"发送到电脑"
+                                          image:[[UIImage imageNamed:@"menu_sendFile"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal ]
+                                         target:self action:@selector(sendToComputer:)],
+                           [JWMenuItem menuItem:@"面对面快传"
+                                          image:[[UIImage imageNamed:@"menu_facetoface"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                         target:self action:@selector(faceToFace:)],
+                           [JWMenuItem menuItem:@"收钱"
+                                          image:[[UIImage imageNamed:@"menu_payMoney"] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal]
+                                         target:self action:@selector(collectMoney:)],
+                           ];
+    CGRect targetFrame = self.navigationItem.rightBarButtonItem.customView.frame;
+    targetFrame.origin.x = VIEW_WIDHT - 64;
+    targetFrame.origin.y = targetFrame.origin.y + 5;
+    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems];
 }
 
 - (void)leftBarButtonClick {
     
     NSLog(@"leftBarButtonClick");
 }
+
+#pragma mark - <rightClick>
+- (void)richScan:(UIButton *)sender {
+    
+    NSLog(@"richScan");
+}
+
+- (void)addFriend:(UIButton *)sender {
+    
+    NSLog(@"addFriend");
+}
+
+- (void)createGroup:(UIButton *)sender {
+    
+    NSLog(@"createGroup");
+}
+
+- (void)faceToFace:(UIButton *)sender {
+    
+    NSLog(@"faceToFace");
+}
+
+- (void)sendToComputer:(UIButton *)sender {
+    
+    NSLog(@"sendToComputer");
+}
+
+
+- (void)collectMoney:(UIButton *)sender {
+    
+    NSLog(@"collectMoney");
+}
+
+
+
+
+
+
+
+
 
 @end
