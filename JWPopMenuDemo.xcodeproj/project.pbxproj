@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAA9A80D1CABA977002DF47A /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA9A80B1CABA977002DF47A /* left.png */; };
+		AAA9A80E1CABA977002DF47A /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = AAA9A80C1CABA977002DF47A /* right.png */; };
 		AADE537A1CAA571900E6C9CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE53791CAA571900E6C9CF /* main.m */; };
 		AADE537D1CAA571900E6C9CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE537C1CAA571900E6C9CF /* AppDelegate.m */; };
 		AADE53801CAA571900E6C9CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AADE537F1CAA571900E6C9CF /* ViewController.m */; };
@@ -56,6 +58,8 @@
 /* Begin PBXFileReference section */
 		1ED30CB03FDDBFEAF2896474 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		2AB715D507C35BFB4469744E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AAA9A80B1CABA977002DF47A /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		AAA9A80C1CABA977002DF47A /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		AADE53751CAA571900E6C9CF /* JWPopMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPopMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE53791CAA571900E6C9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AADE537B1CAA571900E6C9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 				AADE53AE1CAA5A3100E6C9CF /* barbuttonicon_add@2x.png */,
 				AADE53AF1CAA5A3100E6C9CF /* barbuttonicon_add@3x.png */,
 				AADE53CA1CAA8D9E00E6C9CF /* line_x2.png */,
+				AAA9A80B1CABA977002DF47A /* left.png */,
+				AAA9A80C1CABA977002DF47A /* right.png */,
 			);
 			name = image;
 			sourceTree = "<group>";
@@ -380,8 +386,10 @@
 				AADE53CB1CAA8D9E00E6C9CF /* line_x2.png in Resources */,
 				AADE53C61CAA87D500E6C9CF /* menu_multichat@3x.png in Resources */,
 				AADE54AB1CAB7CC600E6C9CF /* chat_icon.png in Resources */,
+				AAA9A80E1CABA977002DF47A /* right.png in Resources */,
 				AADE53B01CAA5A3100E6C9CF /* barbuttonicon_add.png in Resources */,
 				AADE53831CAA571900E6C9CF /* Main.storyboard in Resources */,
+				AAA9A80D1CABA977002DF47A /* left.png in Resources */,
 				AADE53C41CAA87D500E6C9CF /* menu_addFri@3x.png in Resources */,
 				AADE53C91CAA87D500E6C9CF /* menu_sendFile@3x.png in Resources */,
 				AADE53C71CAA87D500E6C9CF /* menu_payMoney@3x.png in Resources */,
