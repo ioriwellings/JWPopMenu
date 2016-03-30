@@ -28,6 +28,12 @@
 		AADE53C81CAA87D500E6C9CF /* menu_QR@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE53C21CAA87D500E6C9CF /* menu_QR@3x.png */; };
 		AADE53C91CAA87D500E6C9CF /* menu_sendFile@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE53C31CAA87D500E6C9CF /* menu_sendFile@3x.png */; };
 		AADE53CB1CAA8D9E00E6C9CF /* line_x2.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE53CA1CAA8D9E00E6C9CF /* line_x2.png */; };
+		AADE54A91CAB7CC600E6C9CF /* add_public_account.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE54A41CAB7CC600E6C9CF /* add_public_account.png */; };
+		AADE54AA1CAB7CC600E6C9CF /* addfriend_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE54A51CAB7CC600E6C9CF /* addfriend_icon.png */; };
+		AADE54AB1CAB7CC600E6C9CF /* chat_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE54A61CAB7CC600E6C9CF /* chat_icon.png */; };
+		AADE54AC1CAB7CC600E6C9CF /* contact_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE54A71CAB7CC600E6C9CF /* contact_icon.png */; };
+		AADE54AD1CAB7CC600E6C9CF /* public_account.png in Resources */ = {isa = PBXBuildFile; fileRef = AADE54A81CAB7CC600E6C9CF /* public_account.png */; };
+		C5FC440ADC148831652B93C4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C51CF2D7F7072DEE3349F838 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1ED30CB03FDDBFEAF2896474 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2AB715D507C35BFB4469744E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		AADE53751CAA571900E6C9CF /* JWPopMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWPopMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AADE53791CAA571900E6C9CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AADE537B1CAA571900E6C9CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -80,6 +88,12 @@
 		AADE53C21CAA87D500E6C9CF /* menu_QR@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_QR@3x.png"; sourceTree = "<group>"; };
 		AADE53C31CAA87D500E6C9CF /* menu_sendFile@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu_sendFile@3x.png"; sourceTree = "<group>"; };
 		AADE53CA1CAA8D9E00E6C9CF /* line_x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line_x2.png; sourceTree = "<group>"; };
+		AADE54A41CAB7CC600E6C9CF /* add_public_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add_public_account.png; sourceTree = "<group>"; };
+		AADE54A51CAB7CC600E6C9CF /* addfriend_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = addfriend_icon.png; sourceTree = "<group>"; };
+		AADE54A61CAB7CC600E6C9CF /* chat_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chat_icon.png; sourceTree = "<group>"; };
+		AADE54A71CAB7CC600E6C9CF /* contact_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_icon.png; sourceTree = "<group>"; };
+		AADE54A81CAB7CC600E6C9CF /* public_account.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = public_account.png; sourceTree = "<group>"; };
+		C51CF2D7F7072DEE3349F838 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5FC440ADC148831652B93C4 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +122,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CA06F00E3E75AB33F494A0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1ED30CB03FDDBFEAF2896474 /* Pods.debug.xcconfig */,
+				2AB715D507C35BFB4469744E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AADE536C1CAA571800E6C9CF = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +138,8 @@
 				AADE53911CAA571900E6C9CF /* JWPopMenuDemoTests */,
 				AADE539C1CAA571900E6C9CF /* JWPopMenuDemoUITests */,
 				AADE53761CAA571900E6C9CF /* Products */,
+				0CA06F00E3E75AB33F494A0D /* Pods */,
+				CC93E3B884F20BB12CDCBF11 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -182,6 +208,7 @@
 		AADE53AC1CAA58E900E6C9CF /* image */ = {
 			isa = PBXGroup;
 			children = (
+				AADE54A31CAB7AB800E6C9CF /* Wechat */,
 				AADE53BD1CAA87B200E6C9CF /* QQ */,
 				AADE53AD1CAA5A3100E6C9CF /* barbuttonicon_add.png */,
 				AADE53AE1CAA5A3100E6C9CF /* barbuttonicon_add@2x.png */,
@@ -217,6 +244,26 @@
 			name = QQ;
 			sourceTree = "<group>";
 		};
+		AADE54A31CAB7AB800E6C9CF /* Wechat */ = {
+			isa = PBXGroup;
+			children = (
+				AADE54A41CAB7CC600E6C9CF /* add_public_account.png */,
+				AADE54A51CAB7CC600E6C9CF /* addfriend_icon.png */,
+				AADE54A61CAB7CC600E6C9CF /* chat_icon.png */,
+				AADE54A71CAB7CC600E6C9CF /* contact_icon.png */,
+				AADE54A81CAB7CC600E6C9CF /* public_account.png */,
+			);
+			name = Wechat;
+			sourceTree = "<group>";
+		};
+		CC93E3B884F20BB12CDCBF11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C51CF2D7F7072DEE3349F838 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -224,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AADE53A21CAA571900E6C9CF /* Build configuration list for PBXNativeTarget "JWPopMenuDemo" */;
 			buildPhases = (
+				B906DE371DDF748E5AAAD14B /* Check Pods Manifest.lock */,
 				AADE53711CAA571900E6C9CF /* Sources */,
 				AADE53721CAA571900E6C9CF /* Frameworks */,
 				AADE53731CAA571900E6C9CF /* Resources */,
+				2E29E58AD14BB067169489A9 /* Embed Pods Frameworks */,
+				665A9AECB2B3B3E0C8061D09 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -320,18 +370,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AADE54A91CAB7CC600E6C9CF /* add_public_account.png in Resources */,
 				AADE53881CAA571900E6C9CF /* LaunchScreen.storyboard in Resources */,
 				AADE53C51CAA87D500E6C9CF /* menu_facetoface@3x.png in Resources */,
 				AADE53851CAA571900E6C9CF /* Assets.xcassets in Resources */,
+				AADE54AD1CAB7CC600E6C9CF /* public_account.png in Resources */,
+				AADE54AA1CAB7CC600E6C9CF /* addfriend_icon.png in Resources */,
 				AADE53B21CAA5A3100E6C9CF /* barbuttonicon_add@3x.png in Resources */,
 				AADE53CB1CAA8D9E00E6C9CF /* line_x2.png in Resources */,
 				AADE53C61CAA87D500E6C9CF /* menu_multichat@3x.png in Resources */,
+				AADE54AB1CAB7CC600E6C9CF /* chat_icon.png in Resources */,
 				AADE53B01CAA5A3100E6C9CF /* barbuttonicon_add.png in Resources */,
 				AADE53831CAA571900E6C9CF /* Main.storyboard in Resources */,
 				AADE53C41CAA87D500E6C9CF /* menu_addFri@3x.png in Resources */,
 				AADE53C91CAA87D500E6C9CF /* menu_sendFile@3x.png in Resources */,
 				AADE53C71CAA87D500E6C9CF /* menu_payMoney@3x.png in Resources */,
 				AADE53B11CAA5A3100E6C9CF /* barbuttonicon_add@2x.png in Resources */,
+				AADE54AC1CAB7CC600E6C9CF /* contact_icon.png in Resources */,
 				AADE53C81CAA87D500E6C9CF /* menu_QR@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +406,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E29E58AD14BB067169489A9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		665A9AECB2B3B3E0C8061D09 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B906DE371DDF748E5AAAD14B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AADE53711CAA571900E6C9CF /* Sources */ = {
@@ -501,6 +604,7 @@
 		};
 		AADE53A31CAA571900E6C9CF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ED30CB03FDDBFEAF2896474 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JWPopMenuDemo/Info.plist;
@@ -512,6 +616,7 @@
 		};
 		AADE53A41CAA571900E6C9CF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AB715D507C35BFB4469744E /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JWPopMenuDemo/Info.plist;

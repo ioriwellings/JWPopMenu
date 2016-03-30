@@ -19,7 +19,7 @@
 @property (readwrite, nonatomic, strong) UIColor *foreColor;
 @property (readwrite, nonatomic) NSTextAlignment alignment;
 
-+ (instancetype)menuItem:(NSString *)title image:(UIImage *)image target:(id)target action:(SEL)action;
++ (instancetype)menuItem:(NSString *)title image:(UIImage *)image titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action;
 
 @end
 

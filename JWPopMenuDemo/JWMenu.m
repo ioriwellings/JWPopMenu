@@ -53,12 +53,12 @@ const CGFloat kArrowSize = 12.f;
 
 @implementation JWMenuItem
 
-+ (instancetype)menuItem:(NSString *)title image:(UIImage *)image target:(id)target action:(SEL)action {
++ (instancetype)menuItem:(NSString *)title image:(UIImage *)image titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action {
     
-    return [[JWMenuItem alloc] init:title image:image target:target action:action];
+    return [[JWMenuItem alloc] init:title image:image titleColor:titleColor target:target action:action];
 }
 
-- (id)init:(NSString *)title image:(UIImage *)image target:(id)target action:(SEL)action {
+- (id)init:(NSString *)title image:(UIImage *)image titleColor:(UIColor *)titleColor target:(id)target action:(SEL)action {
     
     NSParameterAssert(title.length || image);
     self = [super init];
@@ -68,6 +68,7 @@ const CGFloat kArrowSize = 12.f;
         _image = image;
         _target = target;
         _action = action;
+        _foreColor = titleColor;
     }
     return self;
 }
