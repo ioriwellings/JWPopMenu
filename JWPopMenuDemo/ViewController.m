@@ -77,7 +77,7 @@
     CGRect targetFrame = self.navigationItem.rightBarButtonItem.customView.frame;
     targetFrame.origin.x = VIEW_WIDHT - 64;
     targetFrame.origin.y = targetFrame.origin.y + 5;
-    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems];
+    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems viewBackgroundColor:@"F5F6F7"]; // 背景颜色:浅灰色
 }
 
 - (void)leftBarButtonClick {

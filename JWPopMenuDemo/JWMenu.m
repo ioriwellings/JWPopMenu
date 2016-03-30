@@ -72,7 +72,7 @@ const CGFloat kArrowSize = 12.f;
     return self;
 }
 
-- (BOOL) enabled {
+- (BOOL)enabled {
     
     return _target != nil && _action != NULL;
 }
@@ -100,7 +100,8 @@ typedef enum {
     kMenuViewArrowDirectionUp,
     kMenuViewArrowDirectionDown,
     kMenuViewArrowDirectionLeft,
-    kMenuViewArrowDirectionRight,
+    kMenuViewArrowDirectionRight
+    
 } JWMenuViewArrowDiraction;
 
 @implementation JWMenuView {
@@ -109,6 +110,7 @@ typedef enum {
     CGFloat                  _arrowPosition;
     UIView                   *_contentView;
     NSArray                  *_menuItems;
+    NSString                 *_viewBackgroundColor;  // 窗口背景颜色
 }
 
 - (id)init {
@@ -118,6 +120,7 @@ typedef enum {
         self.backgroundColor = [UIColor clearColor];
         self.opaque = YES;
         self.alpha = 0;
+        
         self.layer.shadowOpacity = 0.5;
         self.layer.shadowOffset = CGSizeMake(2, 2);
         self.layer.shadowRadius = 2;
@@ -255,7 +258,10 @@ typedef enum {
     }
 }
 
-- (void)showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems {
+- (void)showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems viewBackgroundColor:(NSString *)viewBackgroundColor {
+    
+    // 初始化窗口背景颜色
+    _viewBackgroundColor = viewBackgroundColor;
     
     _menuItems = menuItems;
     _contentView = [self mkContentView];
@@ -296,6 +302,17 @@ typedef enum {
                 
                 if ([self.superview isKindOfClass:[JWMenuOverlay class]])
                     [self.superview removeFromSuperview];
+                [self removeFromSuperview];
+            }];
+        }
+        else { // 点击屏幕，弹出的窗口消失
+            
+            [UIView animateWithDuration:0.25 animations:^{
+                
+                if ([self.superview isKindOfClass:[JWMenuOverlay class]]) {
+                    
+                    [self.superview removeFromSuperview];
+                }
                 [self removeFromSuperview];
             }];
         }
@@ -505,7 +522,7 @@ typedef enum {
 
 + (UIImage *)gradientLine:(CGSize)size {
     
-    return [UIImage image:[UIImage imageNamed:@"line_x2"] byScalingToSize:size];
+    return [UIImage image:[UIImage imageNamed:@"line_x2"] byScalingToSize:size]; // 分割线
 }
 
 + (UIImage *) gradientImageWithSize:(CGSize) size locations:(const CGFloat [])locations components:(const CGFloat []) components count:(NSUInteger)count {
@@ -535,7 +552,7 @@ typedef enum {
     CGFloat R0 = 0.f, G0 = 0.f, B0 = 0.f;
     CGFloat R1 = 0.f, G1 = 0.f, B1 = 0.f;
     
-    UIColor *tintColor = [UIColor colorWithHexString:@"F5F6F7" alpha:1.0f]; // 浅灰色
+    UIColor *tintColor = [UIColor colorWithHexString:_viewBackgroundColor alpha:1.0f]; // 背景颜色
     
     if (tintColor) {
         
@@ -688,7 +705,7 @@ static UIFont *gTitleFont;
     }
 }
 
-- (void) showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems {
+- (void) showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems viewBackgroundColor:(NSString *)viewBackgroundColor {
     
     NSParameterAssert(view);
     NSParameterAssert(menuItems.count);
@@ -706,7 +723,7 @@ static UIFont *gTitleFont;
         [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(orientationWillChange:)name:UIApplicationWillChangeStatusBarOrientationNotification object:nil];
     }
     _menuView = [[JWMenuView alloc] init];
-    [_menuView showMenuInView:view fromRect:rect menuItems:menuItems];
+    [_menuView showMenuInView:view fromRect:rect menuItems:menuItems viewBackgroundColor:viewBackgroundColor];
 }
 
 - (void) dismissMenu {
@@ -729,9 +746,9 @@ static UIFont *gTitleFont;
     [self dismissMenu];
 }
 
-+ (void)showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems {
++ (void)showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems viewBackgroundColor:(NSString *)viewBackgroundColor {
     
-    [[self sharedMenu] showMenuInView:view fromRect:rect menuItems:menuItems];
+    [[self sharedMenu] showMenuInView:view fromRect:rect menuItems:menuItems viewBackgroundColor:viewBackgroundColor];
 }
 
 + (void)dismissMenu {

@@ -25,7 +25,7 @@
 
 @interface JWMenu : NSObject
 
-+ (void)showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems;
++ (void)showMenuInView:(UIView *)view fromRect:(CGRect)rect menuItems:(NSArray *)menuItems viewBackgroundColor:(NSString *)viewBackgroundColor;
 
 + (void)dismissMenu;
 
