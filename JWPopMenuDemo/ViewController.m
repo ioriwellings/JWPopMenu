@@ -84,7 +84,7 @@
     CGRect targetFrame = self.navigationItem.rightBarButtonItem.customView.frame;
     targetFrame.origin.x = VIEW_WIDHT - 64;
     targetFrame.origin.y = targetFrame.origin.y + 5;
-    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems viewBackgroundColor:@"DFDFDF"]; // 浅灰色
+    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems viewBackgroundColor:@"FFFFFF"]; // 白色
 }
 
 - (void)leftBarButtonClick {
@@ -120,7 +120,7 @@
     CGRect targetFrame = self.navigationItem.leftBarButtonItem.customView.frame;
     targetFrame.origin.x = 0;
     targetFrame.origin.y = targetFrame.origin.y + 5;
-    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems viewBackgroundColor:@"6F7070"]; // 灰色
+    [JWMenu showMenuInView:self.navigationController.view fromRect:targetFrame menuItems:menuItems viewBackgroundColor:@"2AB928"]; // 绿色
 }
 
 #pragma mark - <rightClick>
